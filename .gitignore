@@ -1,5 +1,6 @@
 *.iml
 .idea
+.ipynb_checkpoints
 static/reports
 ui/node_modules
 venv
