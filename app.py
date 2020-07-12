@@ -41,7 +41,7 @@ def display_report(name):
     html_exporter = HTMLExporter()
     # html_exporter.template_file = 'basic'
 
-    # 3. Process the notebook we loaded earlier
+    # Export the notebook into HTML
     (body, resources) = html_exporter.from_notebook_node(nb)
 
     return body
