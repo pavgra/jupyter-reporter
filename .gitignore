@@ -1,0 +1,4 @@
+*.iml
+.idea
+static/reports
+venv
